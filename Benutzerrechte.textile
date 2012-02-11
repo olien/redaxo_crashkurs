@@ -1,2 +1,15 @@
 
 h3. Benutzerrechte
+
+Üblicherweise wird der Admin der Seite die Rechte der Benutzer so konfigurieren, daß diese entsprechend Ihrer Fähigkeiten, Bedürfnisse und Befugnisse ungehindert arbeiten können, aber eben nicht darüber hinaus. Über diese Rechtevergabe kann u.a. geregelt werden:
+
+* welche Seiten ein User überhaupt editieren darf
+* ob er Inhalte nur verändern oder gänzlich neue anlegen darf
+* ob er neue Artikel oder Kategorien anlegen darf
+* ob er Artikel oder Kategorien verschieben darf
+* welche Medien (Bilder, PDFs, Videos, etc.) er verwenden darf
+* welche Module er benutzen darf
+* welche Bereiche/Funtkionen das Backends er nutzen darf
+* und vieles mehr..
+
+Letztlich kann in vielen kleinen Schritten der Freiheitsgrad vom streng reglementierten User bis zum Admin geregelt werden.
