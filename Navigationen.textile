@@ -1,4 +1,3 @@
-<<< "zurück zur Übsersicht":https://github.com/jdlx/redaxo_crashkurs/wiki/Home
 
 h3. Navigationen
 
