@@ -1,8 +1,7 @@
+h3. AddOns
 
-H3. AddOns
-
-@IMG:Addon Verwaltung im backend@
 Erweitern die Funktionalität von Redaxo. AddOns greifen zum Teil tief in die Grund-Funktionalität von Redaxo ein, und ermöglichen Funktionen die mit Modulen nicht zu verwirklichen sind. AddOns werden im Backend über den Menüpunkt “Addons” verwaltet. Dort kann man sie de/installieren, de/aktivieren und löschen. Üblicherweise hat der redaktionelle User keinen Zugang zum Menüpunkt “Addons”.
+@IMG:Addon Verwaltung im backend@
 
 h3. Standard Addons
 
