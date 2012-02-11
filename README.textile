@@ -11,3 +11,4 @@ h2. Inhaltsverzeichnis
 # "Textile":https://github.com/jdlx/redaxo_crashkurs/blob/master/Textile.textile
 # "Module":https://github.com/jdlx/redaxo_crashkurs/blob/master/Module.textile
 # "AddOns":https://github.com/jdlx/redaxo_crashkurs/blob/master/Addon.textile
+# "Best Practice":https://github.com/jdlx/redaxo_crashkurs/blob/master/Best_Practice.textile
