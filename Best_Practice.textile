@@ -1,0 +1,30 @@
+h1. REDAXO „Best Practice“ Guide
+
+Redaxo ist ein besonders flexibles CMS. Es gibt viele verschiedene Realisierungsmöglichkeiten für die selbe Sache. Diese Flexibillität erschwert es Einsteigern allerdings etwas den Anfang. Dieser Artikel soll helfen diese Lücke zu schließen und eine gute Grundlage für ein erstes Projekt. 
+Die Kernelemente in Redaxo zur Strukturierung und Darstellung von Webseiten bilden Kategorien, Artikel, Module, Templates und AddOns. Damit eine praktikable Lösung heraus kommt ist es wichtig ein Gespür dafür zu haben, wann (und unter welchen Bedingungen) welche Elemente für einen Bestimmten Zweck genutzt werden.
+
+h2. 1. Kategorien und Artikel
+
+Wenn man eine neue Seite aufbaut steht man häufig vor der Frage: Wann erzeuge ich eine neue Kategorie, wann nur einen Unterartikel. Natürlich gibt es hier wie bei allem in Redaxo kein richtig, und kein falsch aber eine vorausschauende Planung macht das Arbeiten wesentlich angenehmer und praktikabler. 
+Wenn ein neuer Menüpunkt erzeugt werden soll entscheidet man sich häufig für eine neue Kategorie, denn eventuell spätere Unterpunkte lassen sich hier leicht hinzufügen. Auch arbeiten  Navigations-Scripts (rex_navigation) und Sitemaps häufig mit Kategorien. 
+
+Artikel hingegen können dazu genutzt werden um zusätzliche Inhalte zu einem Startartikel (Jede Kategorie besitzt automatisch einen Startartikel) zu liefern. Oder etwa um thematisch zum Startartikel zugehörige Seiten zu erstellen die selbst jedoch keinen Menüpunkt erzeugen dürfen.
+
+Häufig werden solche Artikel über sogenannte Teaser (z.B. als Modul) in den Startartikel eingebunden und dort komplett oder teilweise angezeigt und bei Bedarf weiter verlinkt.
+
+Am Beispiel eines Unternehmens das seine Produkte auf die Website stellen möchte wird das besonders Deutlich. Für ein Unternehmen das Elektrogeräte für Küche, Garten und Reinigung herstellt legen wir für jede Produktsparte eine Kategorie an: Also Küche, Garten und Reinungsgeräte (und damit auch Menüpunkte in der Navigation) und erstellen in diesen Kategorien weitere Artikel für die einzelnen Produkte. Um deren Darstellung zu erreichen müssten wir nun im Startartikel der jeweiligen Kategorie einen Teaser (siehe Module) einbinden, welcher sich um die Auflistung und Verlinkung der einzelnen Produkte kümmert. Ein anlegen der Produkte als Kategorien wäre zwar ebenfalls möglich, aber deshalb unpraktikabel, da das Menü mit einer steigenden Anzahl von Produkten jedoch sehr lang werden würde.
+
+h2. 2. Module
+
+Die Module sind dafür Zuständig einzelne Artikel mit Inhalten zu versehen. Für zahlreiche Inhalte gibt es verschiedene Module. Und manche enthalten spezielle Eingabemasken für einen Bestimmten Zweck – so gibt es Module welche die freie Eingabe von normalem Fließtext ermöglichen – und andere, striktere, Module welche zum Beispiel schon eine fertige Eingabemaske für einen Kasten mit Kontaktinfos beinhalten. Daneben gibt es noch Module die selbst keine Inhalte bereit stellen sondern dazu genutzt werden Daten aus einem AddOn anzuzeigen, oder Inhalte aus anderen Artikeln ganz oder teilweise (Teaser) als Vorschau ausgeben. 
+
+Im Beispiel unseres Unternehmens wäre es auch möglich die Produkte nicht in einzelne Artikel zu beschreiben, sondern in Modulen. Das kann Vor allem dann Sinn machen, wenn sich eine eigene Seite für die Produkte überhaupt nicht lohnt, da es nur eine kleine Beschreibung dazu gibt. In diesem Fall wäre es praktikabler eine Modul für die Darstellung eines Produktes zu erstellen, dass zum Beispiel Felder für „Produktname“, „Gewicht“, „Leistung“, „Beschreibung“ sowie für ein Foto enthält. Anschließend könnte man alle Produkte mit Modulen untereinander im Startartikel unserer Produktkategorie anlegen.
+
+h2. 3. AddOns
+
+Bei AddOns handelt es sich im Regelfall um komplexere Erweiterungen des Redaxo-Systems. AddOns werden vor allem dann benötigt, wenn sich bestimmte Wünsche und Funktionen nicht mit Bordmitteln praktikabel erreichen lassen. AddOns gibt es in verschiedensten Varianten. Einige stellen Erweiterungen für die Redaxo-Oberfläche bereit, manche AddOns sind nur für Entwickler interessant und wieder andere bieten bestimmte erweiterte Funktionen für das Frontend (Kalender, Formulare, …) 
+
+AddOns halten Ihre Daten meistens in eigenen Datenbanktabellen vor und verfügen über ein speziellen Administrationsbereich im Redaxo-Backend. Ausgabemodule fungieren als „Brücken“ zwischen AddOns und Artikeln. 
+Kommen wir zurück zu unserem Beispiel. Wir haben bereits zwei Möglichkeiten kennengelernt Produkte auf der Website zu Gliedern und darzustellen. Die eine Möglichkeit ist Ideal für Produkte mit viel Informationen, die andere für Produkte mit eher wenigen Informationen. Doch wie verhält sich dass, wenn unser Unternehmen mehrere Hunderte oder gar tausende Produkte hat? Hier wäre der Pflegeaufwand mit Artikeln oder Modulen viel zu hoch und Zeitaufwändig. Dies wäre ein Fall für ein AddOn. Jetzt wäre es auch möglich ein Ausgabemodul zu Programmieren welches die Inhalte nach Besucherwünschen sortiert oder filtert (z.B. nach Farbe, Größe, Gewicht, Preis, etc...)
+
+h2. 4. Templates
