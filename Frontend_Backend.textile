@@ -1,0 +1,13 @@
+<<< "zurück zur Übsersicht":https://github.com/jdlx/redaxo_crashkurs/wiki/Home
+
+h3. Begriffsklärung
+
+Bei der Arbeit mit einem CMS (Content Management System) unterscheidet man zwischen dem sogenannten Frontend und dem Backend. Das Frontend ist die Webseite wie sie der Besucher sieht, im Backend werden Inhalte eingepflegt und bearbeitet, sowie administrative Einstellungen am System vorgenommen.
+
+h3. Wie komme ich ins Backend
+
+!http://rexdev.de/index.php?rex_img_type=github&rex_img_file=lnk_redaxo_login.png(Redaxo Login)! Die URL (Adresse) zum Backend einer Redaxo basierten Webseite lautet:
+
+<pre><code>http://MEINE-DOMAIN.de/redaxo</code></pre>
+
+Oder in Worten: Man hänge an den Namen der eigenen Website einfach ein slash / (Schrägstrich) und dann redaxo.. (Merkhilfe: so wie das CMS eben heißt.. Redaxo). Auf der dann erscheinenden Loginseite gibt man seinen Benutzernamen und das Paßwort ein, und schon ist man drin…

@@ -1,0 +1,14 @@
+<<< "zurück zur Übsersicht":https://github.com/jdlx/redaxo_crashkurs/wiki/Home
+
+h3. Module
+
+@IMG:Moduleingabe im Backend und Ausgabe auf der Homepage@
+In Redaxo spielen die Module die zentrale Rolle bem Zusammenstellen und Ausgeben von Inhalten auf der Homepage. Sie verarbeiten, gemäß ihrer Funktionalität, die vom User eingegebenen Daten wie Texte, Bilder, Einstellungen, etc. für die Ausgabe im Frontend.
+
+h3. Eingabemaske und Ausgabe
+
+Module zeigen sich dem Backend User in zweilerlei Form: Im “normalen”, und im Editiermodus. Im normalen Modus wird der eingegeben Inhalt verarbeitet angezeigt, hat i.d.R. aber nicht die Formatierung die er im Fronend hat, sondern wird in vereinfachter From ohne Formatierung dargestellt. Im Editiermodus zeigt das Modul eine Eingabemaske für die zu verarbeitenden Daten an. Diese Maske ist von Modul zu Modul unterschiedlich und richtet sich nach dessen Funktion. (Mache Module haben aufgrund ihrer Funktionalität keine Eingabemaske.) In der Eingabemaske werden Texte, Bilder, Daten und Einstellungen eingegeben/vorgenommen. In einem Artikel können im Prinzip beliebig viele Module hintereinander eingefügt werde.
+
+h3. Module verschieben
+
+Module werden im Artikel über eine Auswahlbox eingefügt. Diese Auswahlbox enthält alle für den User verfügbaren Module. Wenn bereits ein Modul in einem Artikel eingefügt wurde, erscheint die Auswahlbox jeweils oberhalb und unterhalb des aktuellen Moduls. Somit kann man von vornherein festlegen an welcher Position ein neu eingefügtes Modul erscheinen soll. Die Reihenfolge der Module kann jederzeit nachträglich geändert werden. Über die die Pfeile oben rechts in jedem Modul kann dieses schrittweise in der Modulreihe nach oben oder unten verschoben werden.

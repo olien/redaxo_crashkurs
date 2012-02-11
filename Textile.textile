@@ -1,0 +1,40 @@
+<<< "zurück zur Übsersicht":https://github.com/jdlx/redaxo_crashkurs/wiki/Home
+
+h3. Über Textile
+
+“Textile ist eine einfache Auszeichnungssprache für Texte. Textile wurde entwickelt, um formatierten Text beim Verfassen von Online-Artikeln leicht in validen, wohlgeformten XHTML-Quelltext umwandeln zu können. Textile beachtet dabei typografische Konventionen wie den sachgerechten Einsatz von öffnenden und schließenden Anführungszeichen, Gedankenstrichen und anderem.”
+
+Obige Definition ist eine stark verkürzte Version dieses Wikipedia-Artikels . Allerdings ist damit schon erklärt warum Textile gevorzugt in Redaxo verwendet wird: Mit einfachen Mitteln und relativ geringem Lernaufwand kann auch der Laie Text formatieren ohne dabei versehentlich kaputten oder unsinnigen HTML Code zu erzeugen. Textile hat aber nicht nur für den Laien Vorteile – so einfach diese Auszeichnungssprache auf den ersten Blick erscheint und tatsächlich auch ist, so mächtig ist sie sobald man sich über die einfacheren Auszeichnungsoptionen hinausbewegt.
+
+h3. Typische Fallstricke für Textile Anfänger
+
+h5. 1. Die Bedeutung von Leerzeilen
+
+* *Blockelemente:* Leerzeilen haben in Textile zum Teil eine steuernde Funktion hinsichtlich der Abgrenzung von einem Element zum anderen: Blockelemente (wie z.b. Überschriften) benötigen zwingend eine Leerzeile vor und hinter dem Element. Durch die Leerzeile wird definiert an welcher Stelle das Elemente zu Ende ist. Da die Leerzeilen in diesem Kontext lediglich steuernde Funktion haben, werden sie im Text selbst nicht als Leerzeile angezeigt, somit ist es z.b. auch egal wie viele Leerzeilen man z.b. unter einer Überschrift (oder Blockelementen allgemein) setzt: die erste Leerzeile beendet das Element, die folgenden sind ansonsten bedeutungslos und werden von Textile ignoriert.
+* *Leerzeilen innerhalb von Elementen:* 
+
+h5. 2. Leerzeichen zwischen Element und Inhalt
+
+h3. Kurzübersicht der wichtigesten Elemente
+
+h4. Block Elemente
+
+|_. Element            |_. Textile Markup           |_. resultierendes HTML                       |
+|Überschrift 1. Ordnung|@h1. Überschrift 1. Ordnung@|@<h1>Überschrift 1. Ordnung</h1>@            |
+|Überschrift 2. Ordnung|@h1. Überschrift 2. Ordnung@|@<h2>Überschrift 1. Ordnung</h2>@            |
+|Überschrift 3. Ordnung|@h1. Überschrift 3. Ordnung@|@<h3>Überschrift 1. Ordnung</h3>@            |
+|Überschrift 4. Ordnung|@h1. Überschrift 4. Ordnung@|@<h4>Überschrift 1. Ordnung</h4>@            |
+|Überschrift 5. Ordnung|@h1. Überschrift 5. Ordnung@|@<h5>Überschrift 1. Ordnung</h5>@            |
+|Überschrift 6. Ordnung|@h1. Überschrift 6. Ordnung@|@<h6>Überschrift 1. Ordnung</h6>@            |
+|Absatz (Paragraf)     |@p. Absatz (Paragraf)@      |@<p>Absatz (Paragraf)</p>@                   |
+|\3. Hinweis: Für Absätze gilt insofern eine Sonderstellung, daß sie nicht
+zwingend per @p.@ notiert werden müßen, sondern jeder Textblock mit Leerzeilen
+drumherum automatisch als Absatz interpretiert wird.|
+|Zitat                 |@bq. Ein Zitat..@           |@<blockquote><p>Ein Zitat..</p></blockquote>@|
+
+
+
+h3. Textile Referenzen
+
+"http://thresholdstate.com/articles/4312/the-textile-reference-manual":http://thresholdstate.com/articles/4312/the-textile-reference-manual
+"http://redcloth.org/hobix.com/textile/":http://redcloth.org/hobix.com/textile/

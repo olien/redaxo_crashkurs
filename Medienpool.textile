@@ -1,0 +1,19 @@
+<<< "zurück zur Übsersicht":https://github.com/jdlx/redaxo_crashkurs/wiki/Home
+
+h3. Der Medienpool
+
+Im Medienpool werden alle Dateien verwaltet die auf der Website Verwendung finden sollen. Es können jedwede Art von Dateien hinzugefügt und verwaltet werden, Bilder, Filme, Audio-Dateien, Text-Dateien, etc.
+Dateien per Uploadmaske hinzufügen
+
+@IMG:Dateien dem Medienpool hinzufügen@
+Dem redaktionellen User wird normalerweise außschließlich der upload direkt über die Uploadmaske des Medienpool zur Verfügung stehen. Diese Variante ist sicher und es werden keine Zusatzprogramme oder gesonderte Zugangsdaten für den Server benötigt. Durch Klicken auf den Menüpunkt “Medienpool” im Backend öffnet sich ein neues Browserfenster mit dem Medienpool (Popupblocker gegebenenfalls anpassen!).
+
+h3. Medienpool Kategorien
+
+@IMG:Kategorien des Medienpools verwalten@
+Um die Dateien strukturiert und leichter auffindbar im Medienpool verwalten zu können, gibts es die Möglichkeit Kategorien anzulegen. Das Ordnungsprinzip ist dabei beliebig und richtet sich nach den Vorlieben des Nutzers, bzw. den Anforderungen der Website – analog dazu wie man seine Dateien auf einem privaten PC nach gusto auf entsprechende Ordner verteilen würde.
+
+h3. Upload per FTP-Programm & Snchronisierung
+
+@IMG:Medienpool Datei Synchronisierung@
+Sollen eine große Zahl von Bildern hochgeladen werden empfielt der Upload per FTP-Programm und eine anschließende Synchronisierung in den Medienpool. Voraussetzung dafür ist allerdings das der User wirklich sicher im Umgang mit FTP ist und ihm die Zugangsdaten für den Server anvertraut werden können.

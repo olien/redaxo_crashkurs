@@ -1,0 +1,17 @@
+<<< "zurück zur Übsersicht":https://github.com/jdlx/redaxo_crashkurs/wiki/Home
+
+h3. Templates
+
+@IMG:Template Verwaltung im backend@
+Templates stellen das “Skelett” der Webseite dar. In ihnen werden sowohl statische Elemente definiert als auch Bezug und Verarbeitung dynamischer Elemente geregelt. Grob vereinfacht gesagt wird über die Templates definiert in welcher Abfolge zentralen Elemente wie Navigation oder Content in die Seite einfließen, es wird der Bezug von Stylesheets, Javascripten, keywords, Seitentiteln und dergleichen definiert, sowie die Einbindung beliebiger weiterer Elemente wie Subnavigationen, Footer, Teaser, etc. Der statische Teil der Templates ist HTML Code, der dynamische wird mittels der Scriptsprache PHP programmiert und vom Server beim Aufruf der Seite abgearbeitet. Die Summe aus Template, eingebundener Navigation, Content, etc. ergibt letztlich das, was das Frontend an den Browser liefert: Die eigentliche Webseite.
+Templates editieren
+
+Für das Editieren von Templates sind gute Kenntnisse in HTML, PHP sowie der Funktionsweise von Redaxo notwendig. Ohne diese Voraussetzung kann durch kleinste Fehler die gesammte Website funktionslos werden. Daher wird der normale User i.d.R. nicht die notwendigen Rechte zugeteilt bekommen.
+
+h3. Templates auf Redaxo.de
+
+Weitere Redaxo Templates, finden sich im Downloadbereich auf redaxo.de: http://www.redaxo.de/19-0-templates.html
+
+h3. Adaptieren frei verfügbarer Templates
+
+Im Internet gibt es eine Vielzahl von Seiten die Templates für Webseiten anbieten. Neben einer endlosen Zahl drittklassiger Angebote findet man gelegentlich auch Perlen mit hohem gestalterischen wie technischen Niveau. Allerdings müßen solche Templates für die Verwendung in Redaxo erst angepaßt werden, da sie entweder für andere Content Management System konzipiert oder (überwiegend) rein statisch sind. Der Aufwand einer solchen Anpassung ist variabel, erfordert aber immer zumindest grundlegende HTML und PHP Kenntnisse, sowie einschlägige Erfahrung mit Redaxo. So oder so sind es generische Entwürfe die naturgemäß nicht die gestalterischen oder funktionalen Anforderungen bzw. Wünsche Einzelner abdecken können.

@@ -1,0 +1,26 @@
+<<< "zurück zur Übsersicht":https://github.com/jdlx/redaxo_crashkurs/wiki/Home
+
+H3. AddOns
+
+@IMG:Addon Verwaltung im backend@
+Erweitern die Funktionalität von Redaxo. AddOns greifen zum Teil tief in die Grund-Funktionalität von Redaxo ein, und ermöglichen Funktionen die mit Modulen nicht zu verwirklichen sind. AddOns werden im Backend über den Menüpunkt “Addons” verwaltet. Dort kann man sie de/installieren, de/aktivieren und löschen. Üblicherweise hat der redaktionelle User keinen Zugang zum Menüpunkt “Addons”.
+
+h3. Standard Addons
+
+Mit der Installation von Redaxo werden folgende Standard-Addons mitinstalliert:
+
+h4. Image Resize
+
+Stellt in Redaxo die Funktionalität her um Bilder auf andere Bildmaße umrechnen zu können. Mittels dieses Addons werden z.b. die Voransichten im Medienpool erzeugt. In Modulen kann die Funktionalität genutzt werden um Bilder unabhängig der Größe in der sie in den Medienpool hochgeladen wurden auf eine gewünschte Größe zu resizen. Die screenshots auf dieser Webseite sind z.b. für die verkleinerte Ansicht im Artikel resized. Erst in der Großansicht (mittels Lightbox) werden sie in voller Größe dargestellt. Die vom Addon resizten Bilder werden gecacht, d.h. sie müssen nicht bei jedem Aufruf der Seite jedesmal neu berechnet werden. Das Addon hat im Backend lediglich eine Einstellmöglichkeit: Das Löschen des Caches. Dabei werden alle vom Addon erstellten resize-Varianten des Originalbildes gelöscht. Das Originalbild ist davon natürlich nicht betroffen. Ein Löschen des Caches kann bei Problemen mit Bilddarstellungen helfen, und außerdem reduziert es u.U. massiv die Größes des Bildordners – wichtig wenn dieser für Backupzwecke in ein Archiv gepackt, oder heruntergeladen werden soll.
+
+h4. Import/Export
+
+Über dieses Addon können sowohl der Inhalt der Datenbank, als auch alle Dateien des Medienpools exportiert, bzw. importiert werden. Da die Funktionalität bei Fehlbedienung die ganze Webseite löschen kann, wird der normale User i.d.R. nicht die Rechte für die Benutzung erhalten.
+
+h4. Statistiken
+
+Das Statistik Addon zeigt typische statistische Daten wie Seitenzugriffe, Userzahl, verwendete Browsertypen, Suchbegriffe die zum Aufruf der Seite geführt haben, etc. an. Die Auswertung der Daten muß allerdings vom User ausgelöst werden, sie geschieht nicht automatisch.
+
+h4. Frei verfügbare Addons
+
+Weitere AddOns finden sich im Downloadbereich auf redaxo.de: http://www.redaxo.de/18-0-addons.html

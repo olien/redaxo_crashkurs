@@ -1,0 +1,12 @@
+<<< "zurück zur Übsersicht":https://github.com/jdlx/redaxo_crashkurs/wiki/Home
+
+h3. Metainfos
+
+
+h3. Metainfos editieren
+
+* Artikel
+* Kategorien
+* Medien
+
+h3. Metinfos erweitern

@@ -1,0 +1,19 @@
+<<< "zurück zur Übsersicht":https://github.com/jdlx/redaxo_crashkurs/wiki/Home
+
+h3. Navigationen
+
+Da eine Website nicht eine lose Zettelsammlung sein soll, werden im Backend die Inhalte auf Artikel verteilt, und die Artikel zwecks Gliederung in Kategorien untergebracht. Diese Struktur und die Namen der jeweiligen Kategorie werden mittels der Navigation auf der Website ausgegeben.
+
+h3. Reihenfolge der Navigationspunkte
+
+Die Reihenfolge in welcher die Kategorien in der Navigation erscheinen, wird im Backend über die Prio (für Priorität) eingestellt. Die Prio enthält einen natürlichen Zahlenwert beginnend mit 1, sprich die Kategorie mit der Prio 1 steht ganz oben, die Kategorie mit Prio 2 darunter, usw. Will man eine Kategorie an eine andere Stelle, z.b. von Position 5 nach Position 3 verschieben, ändert man ihre Prio auf 3. Die Kategorie die vorher die 3 hatte, bekommt nun automatisch die nächst niedrigere Prio 4, alle weiteren Kategorien zwischen alter und neuer Position werden analog verschoben.
+
+Wenn man eine neue Kategorie anlegt, wird diese vom System automatisch an die letzte Stelle der Reihe gesetzt. Dabei trägt das System beim Anlegen der Kategorie im Prio-Feld pauschal die Zahl 100 ein. Die 100 soll lediglich sicherstellen, daß die Kategorie auch wirklich die letzte Position der Reihe erhält. Beim Speichern wird die 100 vom System dann passend auf die höchte Zahl der Reihe geändert. Wenn man beim Anlegen der Kategorie schon weiß an welche Stelle sie soll, kann man auch gleich die passende Zahl einsetzen.
+
+h3. Online/Offline Status
+
+Beim Anlegen einer neuen Kategorie wird diese vom System zunächst automatisch auf offline gestellt. Damit die Kategorie in der Navigation auch angezeigt wird, muß ihr Status auf online gestellt werden.
+
+h3. Verschachtelungstiefe
+
+Im Backend lassen sich Kategorien prinzipiell beliebig tief verschachteln. Wieviele Kategorie-Ebenen in der Navigation abgebildet werden hängt von der verwendeten Navigation ab. Die Standard-Navigationen bilden Kategorien der 1. und 2. Ebene ab. Die auf dieser Site verwendete Navigation zeigt auch Kategorien der 3. Ebene, der Übersichtlichkeit halber aber erst wenn man sich in der übergeordneten Kategorie befindet.
