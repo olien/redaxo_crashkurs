@@ -5,7 +5,17 @@ Erweitern die Funktionalität von Redaxo. AddOns greifen zum Teil tief in die Gr
 
 h3. Standard Addons
 
-Mit der Installation von Redaxo werden folgende Standard-Addons mitinstalliert:
+Mit der Installation von Redaxo (aktueller Stand Version 4.3.3) werden folgende Standard-Addons mitinstalliert:
+
+h4. be_dashboard
+
+h4. be_search
+
+h4. be_style
+
+h4. cronjob
+
+h4. image_manager
 
 h4. Image Resize
 
@@ -15,9 +25,17 @@ h4. Import/Export
 
 Über dieses Addon können sowohl der Inhalt der Datenbank, als auch alle Dateien des Medienpools exportiert, bzw. importiert werden. Da die Funktionalität bei Fehlbedienung die ganze Webseite löschen kann, wird der normale User i.d.R. nicht die Rechte für die Benutzung erhalten.
 
-h4. Statistiken
+h4. metainfo
 
-Das Statistik Addon zeigt typische statistische Daten wie Seitenzugriffe, Userzahl, verwendete Browsertypen, Suchbegriffe die zum Aufruf der Seite geführt haben, etc. an. Die Auswertung der Daten muß allerdings vom User ausgelöst werden, sie geschieht nicht automatisch.
+h4. phpmailer
+
+h4. textile
+
+h4. tinymce
+
+h4. url_rewrite
+
+h4. version
 
 h4. Frei verfügbare Addons
 
