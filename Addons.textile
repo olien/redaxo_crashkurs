@@ -7,9 +7,11 @@ h3. Standard Addons
 
 Mit der Installation von Redaxo (aktueller Stand Version 4.3.3) werden folgende Standard-Addons mitinstalliert:
 
-h4. be_dashboard
+h4. Dashboard
 
 h4. be_search
+
+Ermöglicht in der Strukturverwaltung die Suche nach Artikeln über den Artikelnamen bzw. die Artikel-ID. Desweiteren ist über eine Auswahlbox der direkte Sprung in bestimmte Kategorien möglich.
 
 h4. be_style
 
@@ -19,11 +21,24 @@ h4. image_manager
 
 h4. Image Resize
 
-Stellt in Redaxo die Funktionalität her um Bilder auf andere Bildmaße umrechnen zu können. Mittels dieses Addons werden z.b. die Voransichten im Medienpool erzeugt. In Modulen kann die Funktionalität genutzt werden um Bilder unabhängig der Größe in der sie in den Medienpool hochgeladen wurden auf eine gewünschte Größe zu resizen. Die screenshots auf dieser Webseite sind z.b. für die verkleinerte Ansicht im Artikel resized. Erst in der Großansicht (mittels Lightbox) werden sie in voller Größe dargestellt. Die vom Addon resizten Bilder werden gecacht, d.h. sie müssen nicht bei jedem Aufruf der Seite jedesmal neu berechnet werden. Das Addon hat im Backend lediglich eine Einstellmöglichkeit: Das Löschen des Caches. Dabei werden alle vom Addon erstellten resize-Varianten des Originalbildes gelöscht. Das Originalbild ist davon natürlich nicht betroffen. Ein Löschen des Caches kann bei Problemen mit Bilddarstellungen helfen, und außerdem reduziert es u.U. massiv die Größes des Bildordners – wichtig wenn dieser für Backupzwecke in ein Archiv gepackt, oder heruntergeladen werden soll.
+Stellt Funktion für die Bearbeitung von Bilddateien (JPG, PNG, GIF) bereit. Die zwei zentralen Funktion sind hierbei: 
+
+* *resize* - Neuberechnung eines Bildes mit anderen Maßen
+* *crop* - Beschneiden eines Bildes
+
+Darüberhinaus gibt es noch folgende Effekte/Filter die angewendet werden können:
+
+* *sharpen* - Scharfzeichnungsfilter
+* *blur* - Weichzeichnungsfilter
+* *sepia* - typischer Sepia Effekt
+* *grayscale* - Umwandlung in S/W
+* *brand* - Wasserzeichen
+
 
 h4. Import/Export
 
-Über dieses Addon können sowohl der Inhalt der Datenbank, als auch alle Dateien des Medienpools exportiert, bzw. importiert werden. Da die Funktionalität bei Fehlbedienung die ganze Webseite löschen kann, wird der normale User i.d.R. nicht die Rechte für die Benutzung erhalten.
+Über dieses Addon können sowohl der Inhalt der Datenbank, als auch alle Dateien des Medienpools exportiert, bzw. importiert werden.
+_(Für dieses Addon haben redaktionelle User i.d.R. keine Rechte)_
 
 h4. metainfo
 
