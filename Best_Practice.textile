@@ -1,6 +1,7 @@
 h1. REDAXO „Best Practice“ Guide
 
 Redaxo ist ein besonders flexibles CMS. Es gibt viele verschiedene Realisierungsmöglichkeiten für die selbe Sache. Diese Flexibillität erschwert es Einsteigern allerdings etwas den Anfang. Dieser Artikel soll helfen diese Lücke zu schließen und eine gute Grundlage für ein erstes Projekt. 
+
 Die Kernelemente in Redaxo zur Strukturierung und Darstellung von Webseiten bilden Kategorien, Artikel, Module, Templates und AddOns. Damit eine praktikable Lösung heraus kommt ist es wichtig ein Gespür dafür zu haben, wann (und unter welchen Bedingungen) welche Elemente für einen Bestimmten Zweck genutzt werden.
 
 h2. 1. Kategorien und Artikel
@@ -24,7 +25,8 @@ h2. 3. AddOns
 
 Bei AddOns handelt es sich im Regelfall um komplexere Erweiterungen des Redaxo-Systems. AddOns werden vor allem dann benötigt, wenn sich bestimmte Wünsche und Funktionen nicht mit Bordmitteln praktikabel erreichen lassen. AddOns gibt es in verschiedensten Varianten. Einige stellen Erweiterungen für die Redaxo-Oberfläche bereit, manche AddOns sind nur für Entwickler interessant und wieder andere bieten bestimmte erweiterte Funktionen für das Frontend (Kalender, Formulare, …) 
 
-AddOns halten Ihre Daten meistens in eigenen Datenbanktabellen vor und verfügen über ein speziellen Administrationsbereich im Redaxo-Backend. Ausgabemodule fungieren als „Brücken“ zwischen AddOns und Artikeln. 
+AddOns halten Ihre Daten meistens in eigenen Datenbanktabellen vor und verfügen über ein speziellen Administrationsbereich im Redaxo-Backend. Ausgabemodule fungieren als „Brücken“ zwischen AddOns und Artikeln.
+ 
 Kommen wir zurück zu unserem Beispiel. Wir haben bereits zwei Möglichkeiten kennengelernt Produkte auf der Website zu Gliedern und darzustellen. Die eine Möglichkeit ist Ideal für Produkte mit viel Informationen, die andere für Produkte mit eher wenigen Informationen. Doch wie verhält sich dass, wenn unser Unternehmen mehrere Hunderte oder gar tausende Produkte hat? Hier wäre der Pflegeaufwand mit Artikeln oder Modulen viel zu hoch und Zeitaufwändig. Dies wäre ein Fall für ein AddOn. Jetzt wäre es auch möglich ein Ausgabemodul zu Programmieren welches die Inhalte nach Besucherwünschen sortiert oder filtert (z.B. nach Farbe, Größe, Gewicht, Preis, etc...)
 
 h2. 4. Templates
