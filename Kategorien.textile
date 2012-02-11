@@ -1,17 +1,20 @@
 
 h3. Begriffsklärung "Kategorien"
 
-!http://rexdev.de/index.php?rex_img_type=github&rex_img_file=lnk_redaxo_strukturverwaltung.png(Kategorien in der Strukturverwaltung)! Die logische / hierarchische Struktur der Webseite wird in Redaxo mittels einer Ordnerstruktur dargestellt, die sich optisch und logisch an jene des heimischen PCs anlehnt. Die Ordner werden in Redaxo Kategorien genannt. Der Analogie entsprechend werden die Kategorien im Backend mit einem Kategorie Icon Ordnersymbol repräsentiert. Prinzipiell lassen sich – wie auf der heimischen Festplatte – beliebig viele Kategorien erzeugen, sowohl auf derselben Ebene, als auch verschachtelt in der “Tiefe”. Die Navigation durch die Kategorien erfolgt über die Titel-links und die “breadcrumb” Navigation im Kopfbereich der Strukturverwaltung
+Die logische / hierarchische Struktur der Webseite wird in Redaxo mittels einer Ordnerstruktur dargestellt, die sich optisch und logisch an jene des heimischen PCs anlehnt. Die Ordner werden in Redaxo Kategorien genannt. Der Analogie entsprechend werden die Kategorien im Backend mit einem Kategorie Icon Ordnersymbol repräsentiert. Prinzipiell lassen sich – wie auf der heimischen Festplatte – beliebig viele Kategorien erzeugen, sowohl auf derselben Ebene, als auch verschachtelt in der “Tiefe”. Die Navigation durch die Kategorien erfolgt über die Titel-links und die “breadcrumb” Navigation im Kopfbereich der Strukturverwaltung
+!http://rexdev.de/index.php?rex_img_type=github&rex_img_file=lnk_redaxo_strukturverwaltung.png(Kategorien in der Strukturverwaltung)!
 
 h4. Kategorien hinzufügen
 
-!http://rexdev.de/index.php?rex_img_type=github&rex_img_file=lnk_redaxo_kategorie_anlegen.png(Neue Kategorie anlegen)! Um eine neue Kategorie hinzuzufügen, muß man in der Strukturverwaltung zunächst in die Kategorie hineinnavigieren wo die neue Kategorie erstellt werden soll. Um die Kategorie anzulegen klickt man dann oben links auf das Kategorie hinzufügen Icon Ordnersymbol mit dem Plus-Zeichen. Daraufhin wird eine neue Kategoriezeile eingefügt, wo man den Namen der Kategorie und ihre Prio eingeben kann. Durch Klicken auf den button “Kategorie hinzufügen” wird die Kategorie gespeichert.
-Die “Prio”
+Um eine neue Kategorie hinzuzufügen, muß man in der Strukturverwaltung zunächst in die Kategorie hineinnavigieren wo die neue Kategorie erstellt werden soll. Um die Kategorie anzulegen klickt man dann oben links auf das Kategorie hinzufügen Icon Ordnersymbol mit dem Plus-Zeichen. Daraufhin wird eine neue Kategoriezeile eingefügt, wo man den Namen der Kategorie und ihre Prio eingeben kann. Durch Klicken auf den button “Kategorie hinzufügen” wird die Kategorie gespeichert. !http://rexdev.de/index.php?rex_img_type=github&rex_img_file=lnk_redaxo_kategorie_anlegen.png(Neue Kategorie anlegen)!
+
+h4. Die “Prio”
 
 Die Reihenfolge, in welcher die Kategorien in der Strukturverwaltung erscheinen, wird über die im vorhergehenden Absatz erwähnte Prio (für Priorität) eingestellt. Die Prio enthält einen natürlichen Zahlenwert beginnend mit 1, sprich die Kategorie mit der Prio 1 steht ganz oben, die Kategorie mit Prio 2 darunter, usw. Will man eine Kategorie an eine andere Stelle, z.b. von Position 5 nach Position 3 verschieben, ändert man ihre Prio auf 3. Die Kategorie die vorher die 3 hatte, bekommt nun automatisch die nächst niedrigere Prio 4, alle weiteren Kategorien zwischen alter und neuer Position werden analog verschoben.
 
 Wenn man eine neue Kategorie anlegt, wird diese vom System automatisch an die letzte Stelle der Reihe gesetzt. Dabei trägt das System beim Anlegen der Kategorie im Prio-Feld pauschal die Zahl 100 ein. Die 100 soll lediglich sicherstellen, daß die Kategorie auch wirklich die letzte Position der Reihe erhält. Beim Speichern wird die 100 vom System dann passend auf die höchte Zahl der Reihe geändert. Wenn man beim Anlegen der Kategorie schon weiß an welche Stelle sie soll, kann man auch gleich die passende Zahl einsetzen.
-Status/Funktion
+
+h4. Status/Funktion
 
 In der Spalte “Status/Funktion” wird angezeigt und eingestellt ob die Kategorie onlin oder offline ist. Eine Kategorie die offline ist wird nicht in der Navigation angezeigt. Detailierter wird auf dieses Thema im Kapitel Navigation eingegangen.
 
@@ -21,5 +24,5 @@ Will man eine Kategorie dauerhaft löschen, so klickt man in deren Kategoriezeil
 
 h4. Kategorien verschieben
 
-@IMG:Metadaten/Sonstiges: Kategorie verschieben@
 Kategorien können natürlich auch verschoben werden, allerdings ist dies ein wenig versteckt untergebracht: Um eine Kategorie zu verschieben muß zunächst ihr Startartikel aufgerufen werden. Dort wechselt man dann oben rechts über den link “Metadaten/Sonstiges” in die gleichnamige Maske. Am Fuß dieser Maske findet sich eine Auswahlbox in der alle Kategorien der Website gelistet sind. In dieser Liste wählt man die gewünschte Kategorie in welche verschoben werden soll aus, und bestätigt den Vorgang mit dem Button “Kategorie verschieben”. Beim Verschieben werden alle Artikel und enthaltene Kategorien mitverschoben.
+@IMG:Metadaten/Sonstiges: Kategorie verschieben@
