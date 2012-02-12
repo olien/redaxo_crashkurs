@@ -8,4 +8,10 @@ h3. Metainfos editieren
 * Kategorien
 * Medien
 
+h4. Artikel
+
+Befindet man sich im Editiermodus eines Artikels gelangt man durch klick auf "Metadaten/Sonstiges" zu den Metadaten des Artikels. In dem nun erscheinenden Formular kann man diverse Metainformationen erfassen. Ist man mit dem Editern der Daten fertig kann man die durchgeführten Änderungen durch klick auf den Button "Metadaten speichern" sichern.
+
+In dem Editier-Bereich "Metadaten/Sonstiges" können unterhalb der Metadaten, also unter dem Button "Metadaten speichern" noch weitere "Sonstige" Settings bereit stehen, diese sind Abhängig von den Benutzerrechten und werden in einem Anderen Kapitel besprochen.
+
 h3. Metinfos erweitern
