@@ -1,6 +1,6 @@
-
 h3. Metainfos
 
+Artikel, Kategorien oder Dateien im Medienpool können in Redaxo mit zusätzlichen und/oder ergänzenden Inhalten versehen werden. Die sog. Metadaten oder Metainformationen sind teilweise bei der standrad Redaxo-Installation vordefiniert können aber auch von Administratoren und Etwicklern seitenspezifisch erweitert werden.
 
 h3. Metainfos editieren
 
