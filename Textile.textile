@@ -58,6 +58,7 @@ drumherum automatisch als Absatz interpretiert wird.|
     </ol>
   </li>
 </ol></code></pre> |
+|\3. &nbsp;                                                                                       |
 |_. Inline Element     |_. Textile Markup           |_. resultierendes HTML                       |
 |emphasis              |@_emphasis_@                |@<em>emphasis</em>@                          |
 |italic                |@__italic__@                |@<i>italic</i>@                              |
@@ -68,7 +69,7 @@ drumherum automatisch als Absatz interpretiert wird.|
 |inserted              |@+inserted+@                |@<ins>inserted</ins>@                        |
 |superscript           |@^superscript^@             |@<sup>superscript</sup>@                     |
 |subscript             |@~subscript~@               |@<sub>subscript</sub>@                       |
-|code                  |@@code@@                    |@<code>code</code>@                          |
+|code                  |<code>@code@</code>         |@<code>code</code>@                          |
 |span                  |@%span%@                    |@<span>span</span>@                          |
 
 
