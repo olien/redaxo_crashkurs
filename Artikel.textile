@@ -1,7 +1,8 @@
 
 h3. Begriffsklärung "Artikel vs. Startartikel"
 
-Jede Kategorie hat ein alter ego: den sogenannten Startartikel. Dieser wird automatisch von Redaxo erzeugt wenn eine neue Kategorie angelegt wird: sprich _leere Kategorien gibt es nicht!_ In diesem Punkt weicht die Analogie zur PC Festplatte ab. Das, was man im Frontend (=Website) beim Klicken auf einen Navigationspunkt (=Kategorie) angezeigt bekommt, ist der jeweilige Startartikel dieser Kategorie. Im Backend ist der Startartikel durch sein spezielles Symbol und die Bezeichnung “Startartikel” in der Spalte “Artikeltyp” gekennzeichnet. Der Startartikel bekommt vom System zunächst automatisch den Namen seiner Kategorie als Titel, dieser ist bei Bedarf aber natürlich editierbar. Der Titel findet üblicherweise Verwendung als Seitentitel im Browser (und sofern ein URL-rewriter Addon zum Einsatz kommt, auch Teil der jeweiligen URL).
+Jede Kategorie hat ein alter ego: den sogenannten Startartikel. Dieser wird automatisch von Redaxo erzeugt wenn eine neue Kategorie angelegt wird, sprich: _leere Kategorien gibt es in Redaxo nicht.. in diesem Punkt weicht die Analogie zur PC Festplatte ab_.
+Das, was man im Frontend (=Website) beim Klicken auf einen Navigationspunkt (=Kategorie) angezeigt bekommt, ist der jeweilige Startartikel dieser Kategorie. Im Backend ist der Startartikel durch sein spezielles Symbol und die Bezeichnung “Startartikel” in der Spalte “Artikeltyp” gekennzeichnet. Der Startartikel bekommt vom System zunächst automatisch den Namen seiner Kategorie als Titel, dieser ist bei Bedarf aber natürlich editierbar. Der Titel findet üblicherweise Verwendung als Seitentitel im Browser (und sofern ein URL-rewriter Addon zum Einsatz kommt, auch Teil der jeweiligen URL).
 !http://rexdev.de/index.php?rex_img_type=github&rex_img_file=lnk_redaxo_startartikel_und_artikel_einer_kategorie.png(Startartikel und Artikel einer Kategorie)!
 
 h3. Artikel
@@ -11,8 +12,7 @@ Neben dem Startartikel kann eine Kategorie aber auch beliebig viele “normale�
 h3. Status online/offline
 
 Ein Startartikel erbt seinen online/offline Status von seiner Kategorie, ist also nicht direkt änderbar, sondern über den Kategorie-Status. Daher ist sein Status-link in der Strukturverwaltung durchgestrichen und ohne Funktion. Wird ein “normaler” Artikel offline gestellt, so dient das i.d.R. dazu, zu steuern ob der Artikel in einer automatischen Auflistung wie z.b. der Artikelliste erscheint oder nicht.
-*Hinweis:* _Auch wenn die Begriffe online/offline dies vermuten lassen, bewirkt ein offline Status *nicht* das der Artikel nicht aufrufbar wäre. Der Status online/offline hat lediglich steuernde Funktion, keine schützende.
-Über den einfachen Linkaufbau http://DOMAIN.TLD/index.php?article_id=n und willkürliche Eingabe einer Zahl für n ist jede Seite einer Standard Redaxoinstallation aufrufbar._
+*Sicherheitshinweis:* _Auch wenn die Begriffe online/offline dies vermuten lassen, bewirkt ein offline Status _nicht_ das der Artikel nicht aufrufbar wäre. Der Status online/offline hat lediglich steuernde Funktion, keine schützende. Über den einfachen Linkaufbau @http://DOMAIN.TLD/index.php?article_id=n@ und willkürliche Eingabe einer Zahl für n ist jede Seite einer Standard Redaxoinstallation aufrufbar._
 
 h3. Artikel hinzufügen
 
