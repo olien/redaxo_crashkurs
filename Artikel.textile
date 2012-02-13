@@ -1,25 +1,26 @@
 
 h3. Begriffsklärung "Artikel vs. Startartikel"
 
-@IMG:Startartikel und Artikel einer Kategorie@
-Jede Kategorie hat ein alter ego: den sogenannten Startartikel. Dieser wird automatisch von Redaxo erzeugt wenn eine neue Kategorie angelegt wird – leere Kategorien gibt es nicht – in diesem Punkt weicht die Analogie zur PC Festplatte ab. Das, was man im Frontend (=Website) beim Klicken auf einen Navigationspunkt (=Kategorie) angezeigt bekommt, ist immer der jeweilige Startartikel dieser Kategorie – sprich der Artikel den sie gerade lesen ist der Startartikel der Kategorie “Startartikel / Artikel”. Aufgrund dieses Zusammenhangs kann ein Startartikel auch nicht gelöscht werden. Will man ihn löschen, muß man seine Kategorie löschen. Will man einen anderen Artikel einer Kategorie zum Startartikel machen, so ist die über die “Metadaten/Sonstiges” Maske des Artikels möglich (ab Redaxo Version 4.x).
-Startartikel Icon Im Backend ist der Startartikel durch sein spezielles Symbol und die Bezeichnung “Startartikel” in der Spalte “Artikeltyp” gekennzeichnet. Der Startartikel bekommt vom System zunächst automatisch den Namen seiner Kategorie als Titel – er ist später aber jederzeit editierbar. Dieser Titel findet i.d.R. Verwendung als Seitentitel im Browser.
+Jede Kategorie hat ein alter ego: den sogenannten Startartikel. Dieser wird automatisch von Redaxo erzeugt wenn eine neue Kategorie angelegt wird: sprich _leere Kategorien gibt es nicht!_ In diesem Punkt weicht die Analogie zur PC Festplatte ab. Das, was man im Frontend (=Website) beim Klicken auf einen Navigationspunkt (=Kategorie) angezeigt bekommt, ist der jeweilige Startartikel dieser Kategorie. Im Backend ist der Startartikel durch sein spezielles Symbol und die Bezeichnung “Startartikel” in der Spalte “Artikeltyp” gekennzeichnet. Der Startartikel bekommt vom System zunächst automatisch den Namen seiner Kategorie als Titel, dieser ist bei Bedarf aber natürlich editierbar. Der Titel findet üblicherweise Verwendung als Seitentitel im Browser (und sofern ein URL-rewriter Addon zum Einsatz kommt, auch Teil der jeweiligen URL).
+!http://rexdev.de/index.php?rex_img_type=github&rex_img_file=lnk_redaxo_startartikel_und_artikel_einer_kategorie.png(Startartikel und Artikel einer Kategorie)!
 
 h3. Artikel
 
-Neben dem Startartikel kann eine Kategorie aber auch beliebig viele “normale” Artikel enthalten. Artikel Icon Im Backend haben diese Artikel entsprechend ein eigenes Symbol und die Bezeichnung “Artikel”. Die Artikel werden, im Gegensatz zum Startartikel, nicht über die Navigation sondern anderweitig aufgerufen: z.b. über eine Artikelliste oder über interne Links. Im Gegensatz zum Startartikel können normale Artikel auch gelöscht werden, oder über die “Metadaten/Sonstiges” Maske in andere Kategorien verschoben werden.
+Neben dem Startartikel kann eine Kategorie aber auch beliebig viele “normale” Artikel enthalten. Im Backend haben diese Artikel entsprechend ein eigenes Symbol und die Bezeichnung “Artikel” in der Spalte “Artikeltyp”. Die Artikel werden, im Gegensatz zum Startartikel, i.d.R. nicht über die Haupt-Navigation sondern anderweitig verlinkt: z.b. über eine Artikelliste oder über interne Links. Im Gegensatz zum Startartikel können normale Artikel auch gelöscht werden, oder über die “Metadaten/Sonstiges” Maske in andere Kategorien verschoben werden.
 
 h3. Status online/offline
 
-Ein Startartikel erbt seinen online/offline Status von seiner Kategorie, ist also nicht direkt änderbar, sondern über den Kategorie-Status. Daher ist sein Status-link in der Strukturverwaltung durchgestrichen und ohne Funktion. Wird ein “normaler” Artikel offline gestellt, so dient das i.d.R. dazu, zu steuern ob der Artikel in einer automatischen Auflistung wie z.b. der Artikelliste erscheint oder nicht. Voraussetzung dafür ist allerdings, daß das entsprechende Modul den Status auch tatsächlich auswertet. Es gibt z.b. Artikellisten-Module die den Status ignorieren und folglich den Artikel auflisten obwohl er offline gestellt ist.
+Ein Startartikel erbt seinen online/offline Status von seiner Kategorie, ist also nicht direkt änderbar, sondern über den Kategorie-Status. Daher ist sein Status-link in der Strukturverwaltung durchgestrichen und ohne Funktion. Wird ein “normaler” Artikel offline gestellt, so dient das i.d.R. dazu, zu steuern ob der Artikel in einer automatischen Auflistung wie z.b. der Artikelliste erscheint oder nicht.
+*Hinweis:* _Auch wenn die Begriffe online/offline dies vermuten lassen, bewirkt ein offline Status *nicht* das der Artikel nicht aufrufbar wäre. Der Status online/offline hat lediglich steuernde Funktion, keine schützende.
+Über den einfachen Linkaufbau http://DOMAIN.TLD/index.php?article_id=n und willkürliche Eingabe einer Zahl für n ist jede Seite einer Standard Redaxoinstallation aufrufbar._
 
 h3. Artikel hinzufügen
 
-!http://rexdev.de/index.php?rex_img_type=github&rex_img_file=lnk_redaxo_artikel_anlegen.png(Artikel hinzufügen)! Das Vorgehen um einen neuen Artikel anzulegen ist dem Anlegen von Kategorien wie im vohergehenden Kapitel beschrieben sehr ähnlich: Zunächst navigiert man in die gewünschte Kategorie Artikel hinzufügen Icon und klickt dann links auf das Artikel-Icon mit dem Plus-Zeichen. Es wird eine neue Artikelzeile eingefügt, und in dieser wird der Name des Artikels und seine Prio eingegeben, sowie ein ein Seiten-Template ausgewählt. Hat man die Eingaben gespeichert und den Artikel erzeugt ist dieser zunächst offline. Um den Status zu ändern genügt ein Klick auf den Status-link in der Spalte “Status/Funktion”.
+!http://rexdev.de/index.php?rex_img_type=github&rex_img_file=lnk_redaxo_artikel_anlegen.png(Artikel hinzufügen)! Das Vorgehen um einen neuen Artikel anzulegen ist dem Anlegen von Kategorien wie im vohergehenden Kapitel beschrieben sehr ähnlich: Zunächst navigiert man in die gewünschte Kategorie und klickt dann auf das Artikel-Icon mit dem Plus-Zeichen. Es wird eine neue Artikelzeile eingefügt, und in dieser wird der Name des Artikels und seine Prio eingegeben, sowie ein ein Seiten-Template ausgewählt. Hat man die Eingaben gespeichert und den Artikel erzeugt ist dieser zunächst offline. Um den Status zu ändern genügt ein Klick auf den Status-link in der Spalte “Status/Funktion”.
 
 h3. Template Auswahl
 
-Als Standardwert wird i.d.R. das Template “default” angezeigt (es kann allerdings sein das vom Admin ein anderer Name als “default” vergeben wurde). Sollten dem User mehrere Templates zur Verfügung stehen, so wird das gewünschte Template über die Auswahlbox gewählt. Falls versehentlich kein Template definiert wurde, erscheint beim Aufruf der Seite über das Frontend eine leere Seite mit der Meldung “no template”.
+Als Standardwert wird i.d.R. das Template “default” angezeigt (es kann allerdings sein das vom Admin ein anderer Name als “default” vergeben wurde). Sollten dem User mehrere Templates zur Verfügung stehen, so wird das gewünschte Template über die Auswahlbox gewählt. Ob und wieviele Templates zur Auswahl stehen hängt von der jeweiligen site und ihrem Template-Konzept ab.
 
 h3. Artikel löschen
 
@@ -27,10 +28,4 @@ Will man einen Artikel dauerhaft löschen, so klickt man in der Spalte “Status
 
 h3. Artikel ID
 
-In der Strukturverwaltung wird zu jedem Artikel auch seine sogenannte “ID” angezeigt. Diese ID benötigt das System um Artikel eindeutig und dauerhaft auseinanderhalten zu können. Daher wird die ID wird beim Anlegen vom System selbstständig vergeben und ist nicht veränderbar. Der User benötigt die ID eines Artikels nur dann wenn er einen manuellen link auf einen Artikel setzen will. Näheres dazu im Kapitel Textile.
-
-h3. Sicherheitshinweis
-
-In Redaxo hat der Status offline nicht die Bedeutung die man üblicherweise mit dem Begriff verbindet. Grundsätzlich sind in einer Redaxoinstallation alle Artikel über das Netz aufrufbar.
-Der Status online/offline hat lediglich steuernde Funktion, keine schützende.
-Über den einfachen Linkaufbau http://DOMAIN.TLD/index.php?article_id=n und willkürliche Eingabe einer Zahl für n ist jede Seite einer Standard Redaxoinstallation aufrufbar. Mögliche Abhilfe: http://wiki.redaxo.de/index.php?n=R3.ArtikelstatusAccessDeniedPatch , Einsatz einer Rechteverwaltung für die Seitenausgabe im Frontend oder als workaround: Dem zu “versteckenden” Artikel kein Template zuweisen.
+Sofern der Admin das feature für den User freigeschalten hat, wird in der Strukturverwaltung zu jedem Artikel auch seine _ID_ angezeigt. Diese ID benötigt das System um Artikel eindeutig und dauerhaft auseinanderhalten zu können. Daher wird die ID beim Anlegen vom System selbstständig vergeben und ist nicht veränderbar. Der redaktionelle User benötigt die ID eines Artikels i.d.R. nur wenn er direkt über selbige einen Artikel suchen will, oder wenn er einen internen link auf einen Artikel setzen will, und dies nicht über die interne Linkmap möglich ist (z.b. in Textile).
