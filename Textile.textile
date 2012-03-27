@@ -2,7 +2,7 @@ h2. Über Textile
 
 “Textile ist eine einfache Auszeichnungssprache für Texte. Textile wurde entwickelt, um formatierten Text beim Verfassen von Online-Artikeln leicht in validen, wohlgeformten XHTML-Quelltext umwandeln zu können. Textile beachtet dabei typografische Konventionen wie den sachgerechten Einsatz von öffnenden und schließenden Anführungszeichen, Gedankenstrichen und anderem.”
 
-Obige Definition ist eine stark verkürzte Version dieses Wikipedia-Artikels . Allerdings ist damit schon erklärt warum Textile gevorzugt in Redaxo verwendet wird: Mit einfachen Mitteln und relativ geringem Lernaufwand kann auch der Laie Text formatieren ohne dabei versehentlich kaputten oder unsinnigen HTML Code zu erzeugen. Textile hat aber nicht nur für den Laien Vorteile – so einfach diese Auszeichnungssprache auf den ersten Blick erscheint und tatsächlich auch ist, so mächtig ist sie sobald man sich über die einfacheren Auszeichnungsoptionen hinausbewegt.
+Obige Definition ist eine stark verkürzte Version dieses "Wikipedia-Artikels":http://en.wikipedia.org/wiki/Textile_%28markup_language%29 . Allerdings ist damit schon erklärt warum Textile gevorzugt in Redaxo verwendet wird: Mit einfachen Mitteln und relativ geringem Lernaufwand kann auch der Laie Text formatieren ohne dabei versehentlich kaputten oder unsinnigen HTML Code zu erzeugen. Textile hat aber nicht nur für den Laien Vorteile – so einfach diese Auszeichnungssprache auf den ersten Blick erscheint und tatsächlich auch ist, so mächtig ist sie sobald man sich über die einfacheren Auszeichnungsoptionen hinausbewegt.
 
 h2. Typische Fallstricke für Textile Anfänger
 
