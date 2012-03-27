@@ -1,4 +1,3 @@
-
 h2. Über Textile
 
 “Textile ist eine einfache Auszeichnungssprache für Texte. Textile wurde entwickelt, um formatierten Text beim Verfassen von Online-Artikeln leicht in validen, wohlgeformten XHTML-Quelltext umwandeln zu können. Textile beachtet dabei typografische Konventionen wie den sachgerechten Einsatz von öffnenden und schließenden Anführungszeichen, Gedankenstrichen und anderem.”
@@ -10,9 +9,11 @@ h2. Typische Fallstricke für Textile Anfänger
 h5. 1. Die Bedeutung von Leerzeilen
 
 * *Blockelemente:* Leerzeilen haben in Textile zum Teil eine steuernde Funktion hinsichtlich der Abgrenzung von einem Element zum anderen: Blockelemente (wie z.b. Überschriften) benötigen zwingend eine Leerzeile vor und hinter dem Element. Durch die Leerzeile wird definiert an welcher Stelle das Elemente zu Ende ist. Da die Leerzeilen in diesem Kontext lediglich steuernde Funktion haben, werden sie im Text selbst nicht als Leerzeile angezeigt, somit ist es z.b. auch egal wie viele Leerzeilen man z.b. unter einer Überschrift (oder Blockelementen allgemein) setzt: die erste Leerzeile beendet das Element, die folgenden sind ansonsten bedeutungslos und werden von Textile ignoriert.
-* *Leerzeilen innerhalb von Elementen:*
+* *Leerzeilen innerhalb von Elementen:* _todo_
 
 h5. 2. Leerzeichen zwischen Element und Inhalt
+
+_todo_
 
 h2. Kurzübersicht der wichtigesten Elemente
 
@@ -75,7 +76,15 @@ drumherum automatisch als Absatz interpretiert wird.|
 
 h2. Textile Cheatsheet
 
+_todo_
+
 h2. Textile Referenzen
+
+h5. Version 2.2/2.3
+
+"http://textile.sitemonks.com/":http://textile.sitemonks.com/ incl. online interpreter und einer Gegeüberstellung der Neuerungen in 2.2/2.3
+
+h5. Version 2.0
 
 "http://thresholdstate.com/articles/4312/the-textile-reference-manual":http://thresholdstate.com/articles/4312/the-textile-reference-manual
 "http://redcloth.org/hobix.com/textile/":http://redcloth.org/hobix.com/textile/
