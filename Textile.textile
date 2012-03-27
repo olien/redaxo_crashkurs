@@ -13,7 +13,8 @@ h5. 1. Die Bedeutung von Leerzeilen
 
 h5. 2. Leerzeichen zwischen Element und Inhalt
 
-_todo_
+Blockelemente (s.u.) benötigen zwischen dem Element-Auszeichner und dem Inhalt zwingend ein Leerzeichen:
+@n. Der Inhalt folgt nach einem Leerzeichen..@ Dieses Leerzeichen ist _auch_ notwendig, wenn man ein leeres Element ohne Inhalt erzeugen will.
 
 h2. Kurzübersicht der wichtigesten Elemente
 
