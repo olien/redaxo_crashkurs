@@ -1,14 +1,1 @@
-h2. Inhaltsverzeichnis
-
-# "Frontend / Backend":https://github.com/jdlx/redaxo_crashkurs/blob/master/Frontend_Backend.textile
-# "Benutzerrechte":https://github.com/jdlx/redaxo_crashkurs/blob/master/Benutzerrechte.textile
-# "Kategorien":https://github.com/jdlx/redaxo_crashkurs/blob/master/Kategorien.textile
-# "Startartikel / Artikel":https://github.com/jdlx/redaxo_crashkurs/blob/master/Artikel.textile
-# "Metainfos":https://github.com/jdlx/redaxo_crashkurs/blob/master/Metainfos.textile
-# "Templates":https://github.com/jdlx/redaxo_crashkurs/blob/master/Templates.textile
-# "Navigationen":https://github.com/jdlx/redaxo_crashkurs/blob/master/Navigationen.textile
-# "Medienpool":https://github.com/jdlx/redaxo_crashkurs/blob/master/Medienpool.textile
-# "Textile":https://github.com/jdlx/redaxo_crashkurs/blob/master/Textile.textile
-# "Module":https://github.com/jdlx/redaxo_crashkurs/blob/master/Module.textile
-# "AddOns":https://github.com/jdlx/redaxo_crashkurs/blob/master/Addon.textile
-# "Best Practice":https://github.com/jdlx/redaxo_crashkurs/blob/master/Best_Practice.textile
+h2. Redaxo Crahskurs -> siehe "WIKI":https://github.com/jdlx/redaxo_crashkurs/wiki
